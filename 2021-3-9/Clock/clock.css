@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    line-height: 10px;
+}
+
+/* Câu 1: */
+body input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 500px;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+body button {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+
+/* Câu 2: */
+#square2 {
+    width: 100px;
+    height: 100px;
+    border: 1px white solid;
+}
+
+/* Câu 3: */
+
+/* Câu 4: */
+#clock {
+    font-size: 56px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
